@@ -156,8 +156,10 @@ public class ShenyuBootstrapApplication {
    }
 ```
 
+
 * 示例二：
   代表 `/order/save`，会被网关代理，而`/order/findById` 则不会。
+
 
  ```java
   @RestController
